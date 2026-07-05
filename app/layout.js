@@ -3,10 +3,10 @@ import { Inter } from 'next/font/google';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter', display: 'swap' });
 
-const __jsonld = {"@context":"https://schema.org","@type":"MedicalClinic","name":"Klinik Sehat Sentosa","description":"Janji temu dokter online","url":"https://reservasi-klinik.vercel.app","areaServed":"ID"};
+const __jsonld = {"@context":"https://schema.org","@type":"MedicalClinic","name":"Klinik Sehat Sentosa","description":"Janji temu dokter online","url":"https://klinik.pintuweb.com","areaServed":"ID"};
 
 export const metadata = {
-  metadataBase: new URL("https://reservasi-klinik.vercel.app"),
+  metadataBase: new URL("https://klinik.pintuweb.com"),
   title: "Klinik Sehat Sentosa — Janji Temu Dokter Online",
   description: "Buat janji temu dokter online: pilih dokter, tanggal, dan slot waktu yang tersedia. Praktis tanpa antre panjang.",
   applicationName: "Klinik Sehat Sentosa",
@@ -14,11 +14,11 @@ export const metadata = {
   authors: [{ name: "Klinik Sehat Sentosa" }],
   creator: "Klinik Sehat Sentosa",
   publisher: "Klinik Sehat Sentosa",
-  alternates: { canonical: "https://reservasi-klinik.vercel.app" },
+  alternates: { canonical: "https://klinik.pintuweb.com" },
   openGraph: {
     type: "website",
     locale: "id_ID",
-    url: "https://reservasi-klinik.vercel.app",
+    url: "https://klinik.pintuweb.com",
     siteName: "Klinik Sehat Sentosa",
     title: "Klinik Sehat Sentosa — Janji Temu Dokter Online",
     description: "Buat janji temu dokter online: pilih dokter, tanggal, dan slot waktu yang tersedia. Praktis tanpa antre panjang.",
