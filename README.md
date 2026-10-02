@@ -1,20 +1,23 @@
-# Klinik Sehat Sentosa — Janji Temu Dokter Online
+# Klinik Rumpun Waras — Buat janji temu dokter
 
-Buat janji temu dokter online: pilih dokter, tanggal, dan slot waktu yang tersedia. Praktis tanpa antre panjang.
+Klinik keluarga (fiktif). Paradigma **slot penyedia**: pilih dokter, lalu tanggal pada hari praktiknya dan slot 30 menit yang masih kosong.
 
 **Demo live:** https://reservasi-klinik-rose.vercel.app
 
-![Tangkapan layar Klinik Sehat Sentosa](public/og.jpg)
+![Tangkapan layar](public/og.jpg)
 
-> Aplikasi reservasi contoh. Data tersimpan di browser (localStorage), tanpa backend.
+> Purwarupa desain. Nama usaha, data, dan harga fiktif. Tidak ada pembayaran dan tidak ada yang dikirim ke server: pemesanan disimpan di `localStorage` peramban. Tanggal dan jam dihitung dalam WIB di peramban; keterisian contoh dibuat stabil per tanggal.
 
-## Konsep
+## Fitur
 
-Paradigma **slot dokter**: pilih dokter, tanggal, lalu slot 30 menit lewat stepper empat langkah.
+- Tiap dokter punya hari praktik mingguan; tanggal tanpa praktik tidak muncul.
+- Nomor urut perkiraan, jenis pasien, dan cara bayar; peringatan gawat darurat (112) di atas formulir.
+- `/dokter` — tabel jadwal mingguan dan persiapan sebelum datang per dokter.
+- `/janji` — janji saya dengan daftar persiapan sesuai dokter.
 
 ## Halaman
 
-`/`
+`/` · `/dokter` · `/janji`
 
 ## Teknologi
 
@@ -23,7 +26,7 @@ Paradigma **slot dokter**: pilih dokter, tanggal, lalu slot 30 menit lewat stepp
 - JavaScript
 - Framer Motion, Lucide (ikon)
 - Font: Inter (next/font)
-- SEO: metadata per halaman, Open Graph, JSON-LD, sitemap.xml, dan robots.txt
+- SEO: metadata per halaman, Open Graph, sitemap.xml, dan robots.txt
 
 ## Menjalankan secara lokal
 

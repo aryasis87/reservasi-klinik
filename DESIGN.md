@@ -1,4 +1,4 @@
-# Klinik Sehat Sentosa — Design System (Reservasi Klinik/Dokter)
+# Klinik Rumpun Waras — Design System (Reservasi Klinik/Dokter)
 
 > Concept: **friendly health-companion** — lembut, membulat, menenangkan & manusiawi (terasa seperti aplikasi wellness, bukan korporat dingin). Platform: responsive web. Bahasa: Indonesia.
 
